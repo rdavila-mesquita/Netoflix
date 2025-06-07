@@ -14,9 +14,9 @@
 ## 📸 Preview
 
 
-![alt text](<Captura de tela 2025-06-07 010518.png>) 
-![alt text](<Captura de tela 2025-06-07 010559.png>) 
-![alt text](<Captura de tela 2025-06-07 010829.png>)
+imgs/Captura de tela 2025-06-07 010518.png
+imgs/Captura de tela 2025-06-07 010559.png
+imgs/Captura de tela 2025-06-07 010829.png
 
 ## 🔧 Como rodar localmente
 
