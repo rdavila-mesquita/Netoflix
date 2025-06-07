@@ -1,0 +1,11 @@
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: static !important;
+  z-index: auto !important;
+  overflow: visible !important;
+  height: auto;
+}

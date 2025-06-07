@@ -1,0 +1,183 @@
+
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  overflow: visible;
+  gap: 5px;
+}
+
+.movie-card {
+  position: relative;
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  width: 210px;
+  height: auto;
+  z-index: 1;
+
+}
+
+.movie-card .inner-card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 210px;
+  height: 130px;
+  background-color: rgb(65, 65, 65);
+  border-radius: 5px;
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+  z-index: 2;
+  flex: none;
+}
+
+.movie-card:hover{
+    z-index: 100;
+    pointer-events: auto;
+}
+
+.movie-card:hover .inner-card {
+  width: 280px;
+  height: 300px;
+  transform: scale(1.2);
+  z-index: 99;
+  transition-delay: 0.6s;
+  transform: translatey(-30%);
+}
+
+
+.container .movie-card .card-img{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    overflow: visible;
+    transition: 0.3s;
+    z-index: 3;
+
+}
+
+.container .movie-card .card-img img {
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .movie-card:hover .card-img img {
+    height: 50%;
+    scale: 1.0;
+    transition-delay: 0.6s;
+}
+
+.container .movie-card .btns{
+    position: absolute;
+    display: flex;
+    top: 50px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    z-index: 5;
+    pointer-events: auto;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+.media-type {
+  display: flex;
+  gap: 15px;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.media-type li {
+  padding: 0px 5px;
+  font-size: 13px;
+  color: #ffffffd2;
+}
+
+.container .movie-card .media-type {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 4;
+    flex-wrap: wrap;
+    max-width: 90%;
+}
+
+.container .movie-card:hover .media-type {
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
+.container .movie-card .btns .sm{
+    position: absolute;
+    right: 0%;
+}
+
+.container .movie-card:hover .btns{
+    top: 170px;
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
+
+.container .movie-card h4{
+    position: absolute;
+    bottom: 0px; 
+    width: 100%;
+    left:5px;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgba(3, 3, 3, 0.704);
+    opacity: 0;
+    z-index: 4;
+}
+
+.container .movie-card:hover h4{
+    top: 95px;
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.6s;
+}
+
+.container .movie-card h3{
+    position: absolute;
+    bottom: 0px; 
+    width: 100%;
+    left: 10px;
+    font-size: 1.0rem;
+    font-weight: 700;
+    color: rgb(213, 213, 213);
+    opacity: 0;
+    z-index: 4;
+}
+
+.container .movie-card:hover h3{
+    top: 225px;
+    opacity: 1;
+    transition-delay: 0.6s;
+}
+
+.container .movie-card .genre{
+    position: absolute;
+    bottom: 10px; 
+    left: 5px;
+    width: 100%;
+    font-size: 0.2rem;
+    opacity: 0;
+}
+
+.container .movie-card:hover .genre{
+    bottom: 10px;
+    opacity: 1;
+    transition-delay: 0.6s;
+}
