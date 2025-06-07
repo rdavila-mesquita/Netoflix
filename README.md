@@ -1,12 +1,34 @@
-# React + Vite
+# 🎬 Netoflix
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+> Projeto iniciado em sala de aula com o intuito de replicar uma plataforma de streaming(Netflix).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tecnologias
 
-## Expanding the ESLint configuration
+- React
+- React Router
+- CSS 
+- Swiper
+- TMDB API 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📸 Preview
+
+
+![alt text](<Captura de tela 2025-06-07 010518.png>) 
+![alt text](<Captura de tela 2025-06-07 010559.png>) 
+![alt text](<Captura de tela 2025-06-07 010829.png>)
+
+## 🔧 Como rodar localmente
+
+```bash
+# Clone o repositório
+git clone https://github.com/rdavila-mesquita/Netoflix.git
+
+# Entre na pasta
+cd nome-da-pasta
+
+# Instale as dependências
+npm install
+
+# Inicie o servidor de desenvolvimento
+npm run dev
