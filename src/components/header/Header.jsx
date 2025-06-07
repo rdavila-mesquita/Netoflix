@@ -8,7 +8,7 @@ import { FaExclamationCircle, FaPlay } from "react-icons/fa";
 function Header() {
         const [popularMovies, setPopularMovies] = useState([])
         async function getPopularMovies() {
-            const url = 'https://api.themoviedb.org/3/trending/all/day?language=pt-BR';
+            const url = 'https://api.themoviedb.org/3/movie/top_rated?language=pt-BR';
             const options = {
             method: 'GET',
             headers: {

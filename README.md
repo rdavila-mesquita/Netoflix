@@ -13,10 +13,18 @@
 
 ## 📸 Preview
 
+## Home
+![home](imgs/home.png)
 
-imgs/Captura de tela 2025-06-07 010518.png
-imgs/Captura de tela 2025-06-07 010559.png
-imgs/Captura de tela 2025-06-07 010829.png
+---
+## Cards
+![cards](imgs/cards.png)
+
+---
+## Página de detalhes
+![detalhes](imgs/details.png)
+
+---
 
 ## 🔧 Como rodar localmente
 
